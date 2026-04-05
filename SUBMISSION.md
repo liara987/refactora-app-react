@@ -70,3 +70,5 @@
 **Did you use AI tools?**
 
 - Sim, usei o Claude como par de programação para discutir decisões de arquitetura, revisar tipagens e validar abordagens. Todo o código foi revisado, entendido e adaptado por mim — o AI acelerou a iteração, mas as decisões de design foram tomadas em conjunto e compreendidas antes de aplicadas
+
+**Time spent:** ~2h efetivas (16h–20h com pausa de 2h)
