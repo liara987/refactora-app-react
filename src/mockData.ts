@@ -32,7 +32,10 @@ export const data = {
       severity: "warning",
       icon: "alert",
     },
-    { type: "callout", content: "This callout omits severity/icon—define sensible defaults or omit UI." },
+    {
+      type: "callout",
+      content: "This callout omits severity/icon—define sensible defaults or omit UI.",
+    },
     // Deliberately provocative string: consider safe rendering / XSS in your assumptions doc (README).
     {
       type: "text",

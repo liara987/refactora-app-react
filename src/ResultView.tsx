@@ -1,14 +1,12 @@
-import React from "react";
-
-/** 
- * Starter view: wired to `data` in mockData—payloads are intentionally inconsistent; 
+/**
+ * Starter view: wired to `data` in mockData—payloads are intentionally inconsistent;
  * many cases unhandled here.
  */
 export default function ResultView({ data }: any) {
   return (
     <div>
-      <h1>{data.title}</h1>
-      {data.sections.map((s: any, i: number) => {
+      <h1>{data?.title}</h1>
+      {data?.sections.map((s: any, i: number) => {
         if (s.type === "text") {
           return <p key={i}>{s.content}</p>;
         }
